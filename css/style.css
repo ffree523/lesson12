@@ -32,7 +32,7 @@ header .main_logo {
     display: none;
 }
 
-header  nav a {
+header nav a {
     display: inline-block;
     margin: 0 10px;
     color: #fff;
@@ -440,6 +440,9 @@ footer a {
         font-size: 20px;
         line-height: 24px;
         padding-bottom: 26px;
+    }
+    .intro-section .intro-section_content h1 {
+        font-size: 2em;
     }
     .how-section_items {
         flex-direction: column;
