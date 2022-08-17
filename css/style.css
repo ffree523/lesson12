@@ -361,6 +361,7 @@ footer a {
     .meet-section_items {
         flex-wrap: wrap;
     }
+
     .meet-section_item {
         width: calc(50% - 20px);
     }
@@ -431,7 +432,6 @@ footer a {
     .discover_content .three_discover_items {
         flex-direction: column;
     }
-
     .enterbutton {
         flex-direction: column;
         align-items: center;
