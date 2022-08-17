@@ -109,8 +109,49 @@ header nav a:hover {
     display: flex;
     justify-content: center;
 }
-.how-section_items div{
-   padding: 20px;
+.how-section_items div {
+    padding: 0px 20px;
+}
+.first {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.step_content {
+    position: absolute;
+    text-align: left;
+    margin: 0px 25px 21px 25px;
+}
+.step_content button {
+    background: #FF4E50;
+    border-radius: 40px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    padding: 5px 14px 3px 14px;
+    border: none;
+    margin: 0px 25px;
+}
+.step_content h1 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 15px 25px 0px 25px;
+    text-align: left;
+}
+.step_content p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: #E3E3E3;
+    padding: 10px 25px;
+    text-align: left;
 }
 
 .meet-section {
@@ -180,49 +221,27 @@ header nav a:hover {
     margin: 0px 20px 20px 0px;
 }
 
-.tablet-sport {
-    display: none;
-}
-.tablet-welness {
-    display: none;
-}
-.tablet-extreme {
-    display: none;
-}
-.tablet-games {
-    display: none;
-}
-.tablet-culture {
-    display: none;
-}
-.tablet-enjomet {
-    display: none;
-}
-.tablet-travaling {
-    display: none;
+.one {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.mobile-sport {
-    display: none;
+.one h2 {
+    position: absolute;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px 20px 0px 0px;
 }
-.mobile-welness {
-    display: none;
-}
-.mobile-extreme {
-    display: none;
-}
-.mobile-games {
-    display: none;
-}
-.mobile-culture {
-    display: none;
-}
-.mobile-enjomet {
-    display: none;
-}
-.mobile-travaling {
-    display: none;
-}
+
+
+
+
 
 .two_discover_items {
     display: flex;
@@ -326,6 +345,19 @@ footer a {
     .intro-section_content .main_logo {
         display: none;
     }
+    .step_content {
+        margin: 0px 20px 16px 20px;
+    }
+    .step_content button {
+        margin: 0px 20px;
+    }
+    .step_content h1 {
+        padding: 15px 20px 0px 20px;
+    }
+    .step_content p {
+        padding: 10px 20px;
+    }
+
     .meet-section_items {
         flex-wrap: wrap;
     }
@@ -341,52 +373,6 @@ footer a {
     .discover_content {
         margin-left: 20px;
     }
-
-
-    .desktop-sport {
-        display: none;
-    }
-    .desktop-welness {
-        display: none;
-    }
-    .desktop-extreme {
-        display: none;
-    }
-    .desktop-games {
-        display: none;
-    }
-    .desktop-culture {
-        display: none;
-    }
-    .desktop-enjomet {
-        display: none;
-    }
-    .desktop-travaling {
-        display: none;
-    }
-
-    .mobile-sport {
-        display: none;
-    }
-    .mobile-welness {
-        display: none;
-    }
-    .mobile-extreme {
-        display: none;
-    }
-    .mobile-games {
-        display: none;
-    }
-    .mobile-culture {
-        display: none;
-    }
-    .mobile-enjomet {
-        display: none;
-    }
-    .mobile-travaling {
-        display: none;
-    }
-
     .d {
         display: none;
     }
@@ -394,34 +380,7 @@ footer a {
         display: none;
     }
 
-    .tablet-sport {
-        display: block;
-    }
-    .tablet-welness {
-        display: block;
-    }
-    .tablet-extreme {
-        display: block;
-    }
-    .tablet-games {
-        display: block;
-    }
-    .tablet-culture {
-        display: block;
-    }
-    .tablet-enjomet {
-        display: block;
-    }
-    .tablet-travaling {
-        display: block;
-    }
 
-    .d {
-        display: none;
-    }
-    .logo2 {
-        display: none;
-    }
 }
 
     /*mobile*/
@@ -450,6 +409,15 @@ footer a {
     .how-section_items img {
         padding-bottom: 10px;
     }
+
+    .step_content {
+        margin: 0px 30px 16px 20px;
+        width: 270px;
+    }
+    .step_content button {
+        margin: 0px 20px;
+    }
+
     .meet-section_items {
         flex-direction: column;
         align-items: center;
@@ -464,80 +432,13 @@ footer a {
         flex-direction: column;
     }
 
-
-
-    .desktop-sport {
-        display: none;
-    }
-    .desktop-welness {
-        display: none;
-    }
-    .desktop-extreme {
-        display: none;
-    }
-    .desktop-games {
-        display: none;
-    }
-    .desktop-culture {
-        display: none;
-    }
-    .desktop-enjomet {
-        display: none;
-    }
-    .desktop-travaling {
-        display: none;
-    }
-
-    .tablet-sport {
-        display: none;
-    }
-    .tablet-welness {
-        display: none;
-    }
-    .tablet-extreme {
-        display: none;
-    }
-    .tablet-games {
-        display: none;
-    }
-    .tablet-culture {
-        display: none;
-    }
-    .tablet-enjomet {
-        display: none;
-    }
-    .tablet-travaling {
-        display: none;
-    }
-
-    .mobile-sport {
-        display: block;
-    }
-    .mobile-welness {
-        display: block;
-    }
-    .mobile-extreme {
-        display: block;
-    }
-    .mobile-games {
-        display: block;
-    }
-    .mobile-culture {
-        display: block;
-    }
-    .mobile-enjomet {
-        display: block;
-    }
-    .mobile-travaling {
-        display: block;
-    }
-
     .enterbutton {
         flex-direction: column;
         align-items: center;
     }
     .searchpart {
         margin-top: 20px;
+        text-align: center;
     }
     .foot {
         flex-wrap: wrap;
